@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Featured = () => {
+const Main = () => {
   return (
-    <FeatDiv>
+    <MainDiv>
       <div className='item'>
         <img
           src='https://images.pexels.com/photos/821651/pexels-photo-821651.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
@@ -11,14 +11,14 @@ const Featured = () => {
         />
       </div>
       <div className='item'>
-        <h1>Featured Product</h1>
+        <h1>Main Product</h1>
         <p>Camera</p>
       </div>
-    </FeatDiv>
+    </MainDiv>
   );
 };
 
-const FeatDiv = styled.div`
+const MainDiv = styled.div`
   display: grid;
   grid-template-columns: 1fr;
   align-content: flex-start;
@@ -36,4 +36,4 @@ const FeatDiv = styled.div`
   }
 `;
 
-export default Featured;
+export default Main;

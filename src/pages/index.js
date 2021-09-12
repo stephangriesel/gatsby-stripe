@@ -2,7 +2,8 @@ import * as React from 'react';
 import '../css/styles.css';
 import Header from '../components/header/Header';
 import Hero from '../components/hero/Hero';
-import Featured from '../components/main/Featured';
+import Main from '../components/main/Main';
+import FeaturedCollection from '../components/featured-collection/featured-collection';
 import ProductsContextProvider from '../context/products-context';
 
 const IndexPage = () => {
@@ -11,7 +12,8 @@ const IndexPage = () => {
       <main>
         <Header />
         <Hero />
-        <Featured />
+        <Main />
+        <FeaturedCollection />
       </main>
     </ProductsContextProvider>
   );
