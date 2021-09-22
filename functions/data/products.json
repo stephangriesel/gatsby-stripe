@@ -1,0 +1,24 @@
+[
+    {
+      "sku": "001",
+      "name": "Camera Bag",
+      "description": "Bag for your stylish camera with extra padding so you can protect it",
+      "image": {
+        "url": "https://images.pexels.com/photos/2081199/pexels-photo-2081199.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        "key": "bag.jpg"
+      },
+      "amount": 2200,
+      "currency": "USD"
+    },
+    {
+      "sku": "002",
+      "name": "Hip shirt",
+      "description": "Shirt to match you fancy outfit with your cool camera",
+      "image": {
+        "url": "https://images.pexels.com/photos/428340/pexels-photo-428340.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        "key": "shirt.jpg"
+      },
+      "amount": 2000,
+      "currency": "USD"
+    }
+]
