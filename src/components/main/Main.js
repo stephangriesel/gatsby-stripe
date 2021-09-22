@@ -1,19 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
+import Products from '../products/Products';
 
 const Main = () => {
   return (
     <MainDiv>
-      <div className='item'>
-        <img
-          src='https://images.pexels.com/photos/821651/pexels-photo-821651.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
-          alt='product'
-        />
-      </div>
-      <div className='item'>
-        <h1>Main Product</h1>
-        <p>Camera</p>
-      </div>
+      <Products />
     </MainDiv>
   );
 };
